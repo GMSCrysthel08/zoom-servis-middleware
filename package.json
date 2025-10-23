@@ -1,0 +1,22 @@
+{
+  "name": "zoom-servis-middleware",
+  "version": "1.0.0",
+  "description": "Middleware to connect Zoom SMS/MMS with Servis.ai",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "node-fetch": "^2.6.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
