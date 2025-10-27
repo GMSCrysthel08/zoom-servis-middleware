@@ -53,6 +53,13 @@ async function getServisToken() {
 }
 
 // -------------------------
+// Root Route (for Render)
+// -------------------------
+app.get("/", (req, res) => {
+  res.send("✅ Zoom–Servis Middleware is running on Render!");
+});
+
+// -------------------------
 // 1. Inbound: Zoom → Servis.ai
 // -------------------------
 app.post("/zoom-webhook", async (req, res) => {
